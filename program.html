@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS, JS: Styling and Colors</title>
+    <title>Program Page</title>
+    <style>
+        body{
+            background-color: #3399ff;
+            color: black;
+            font-family: Helvetica;
+        }
+        hr{
+            border: none;
+            height: 4px;
+            color: black;
+            background-color: black;
+        }
+        #title{
+            text-align: center;
+            font-size:45px;
+        }
+        #page_menu{
+            color:black;
+            font-size: 22px;
+            margin:0;
+            padding-bottom: 5px;
+        }
+
+        .links_to_pages{
+            color: 003399;
+            font-size: 12px;
+        }
+        
+    </style>
 </head>
 <body>
-
+    <h1 id = 'title'>Favorite Progams I Have Coded</h1>
+    <div align = 'center'>
+        <p id = 'page_menu'><b>Page Menu</b></p>
+        <a href = 'index.html' class = 'links_to_pages'>Dog Page</a>
+        <br>
+        <a href = 'resume.html' class = 'links_to_pages'>Resume Page</a>
+        <br>
+        <a href = 'hobby.html' class = 'links_to_pages'>Hobby Page</a>
+        <br>
+    </div>
+    <div align = 'center'>
+        <br>
+        <hr>
+        <h1>Zork Game</h1>
+        <p>Zork is a console game, where you control and interact with the game by giving simple commands such as north, and inventory. Type 'help' to see a list of all possible interactions.</p>
+        <h3>Click the Green Run Button in the Right Corner to Play</h3>
+        <iframe id = 'zork_link' src = 'https://replit.com/@HankBrown/Zork-Type-Game?embed=true' width = 900 height = 600 ></iframe>
+    </div>
+    <div align = 'center'>
+        <br>
+        <hr>
+        <h1>Agario Game</h1>
+        <p>Agario is a simple pvp game, where the play is black circle and its goal is to eat the food and the other enemys to become the biggest circle. Your cicle follows your cursor.</p>
+        <h3>Click the Green Run Button in the Right Corner to Play</h3>
+        <iframe src = 'https://replit.com/@HankBrown/Agario?embed=true' width = 900 height = 600 ></iframe>
+    </div>
 </body>
 </html>
